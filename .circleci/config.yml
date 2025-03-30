@@ -11,7 +11,7 @@ orbs:
 workflows:
   CICD_build_test_wokflow: 
     jobs:  
-      - build-test-lint
+      - ci-build-test-lint
 
 jobs: 
   ci-build-test-lint:
