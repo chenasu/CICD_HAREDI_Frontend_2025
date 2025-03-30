@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 // import reactLogo from './assets/react.svg'
 import './App.css';
 
-const SERVER_URL = "https://cicd-2025-server.onrender.com";
+const SERVER_URL = "https://cicd-2025-server.onrender.com/name";
 function App() {
   const [count, setCount] = useState(0); // Learn about Hooks in react.
   const [firstName, setFirstName] = useState(""); // Learn about Hooks in react.
