@@ -14,7 +14,7 @@ workflows:
       - build-test-lint
 
 jobs: 
-  build-test-lint:
+  ci-build-test-lint:
     executor: 
       name: node/default
     steps: 
@@ -28,9 +28,9 @@ jobs:
       - run: 
           name: Run linter
           command: npm run lint
-      - run: 
-          name: deploy app to server
-          command: curl "https://api.render.com/deploy/srv-csv26raj1k6c73c0bs5g?key=3Q9c5bDK6HU"
+      # - run: 
+      #     name: deploy app to server
+      #     command: curl "https://api.render.com/deploy/srv-csv26raj1k6c73c0bs5g?key=3Q9c5bDK6HU"
 
 
 
