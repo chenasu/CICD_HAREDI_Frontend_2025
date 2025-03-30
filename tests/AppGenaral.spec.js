@@ -1,18 +1,16 @@
 // App.test.jsx
 
 import { render, screen } from '@testing-library/react';
-import React from 'react'; 
+import React from 'react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom'; // gives you .toBeInTheDocument() and other matchers
-import App from "../src/App";
+import App from '../src/App';
 
 describe('App component', () => {
   test('renders welcome text', () => {
     render(<App />);
     // Look for the heading text
-    expect(
-      screen.getByText(/Welcome to CICD Class with Chen Asulin/i)
-    ).toBeInTheDocument();
+    expect(screen.getByText(/Welcome to CICD Class with Chen Asulin/i)).toBeInTheDocument();
   });
 
   test('increments count when button is clicked', async () => {
