@@ -4,11 +4,13 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest", 
+    "echo-chen": "echo Chen"
   },
   "jest": {
     "testEnvironment": "jest-environment-jsdom",

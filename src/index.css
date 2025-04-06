@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+input{
+  background-color: beige;
+  color: #213547;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,11 +33,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: azure;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color:#213547;
+  /* background-color: azure; */
 }
 
 button {
