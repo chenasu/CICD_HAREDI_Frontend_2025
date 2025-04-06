@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 // const SERVER_URL = 'https://cicd-2025-server.onrender.com/name';
-const SERVER_URL = 'http://localhost:3000';
+const SERVER_URL = import.meta.env.VITE_SERVER_URL;
 
 export default function Login() {
   const [username, setUserName] = useState(''); // Learn about Hooks in react.
